@@ -1,0 +1,31 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+
+    button {
+        background: none;
+        border: none;
+        margin: 1em; //убрать при необходимости 
+    }
+}
+
+.price>span {
+
+    &:after {
+        content: ' \20BD';
+    }
+}
+
+.price button {
+    width: 256px;
+    height: 40px;
+    border: 1px solid #70C05B;
+    border-radius: 4px;
+    text-decoration: #70C05B;
+    font-family: ;
+}
