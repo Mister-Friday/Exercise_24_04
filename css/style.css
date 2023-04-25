@@ -1,26 +1,98 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+:root {
+  --green_color: #70c05b;
+  --orange_color: #ff6633;
+  --grey_color: #5a5a5a;
+  --white_color: #fff;
+  --background_color: #fbf8ec;
+}
+
 * {
   text-decoration: none;
   padding: 0;
   margin: 0;
+  font-family: "Rubik", sans-serif;
 }
 
 body {
-  background-color: #E5E5E5;
+  background: var(--background_color);
+  width: 1440px;
 }
 body button {
   background: none;
   border: none;
-  margin: 1em;
 }
 
-.price > span:after {
+header {
+  display: flex;
+  place-content: space-between;
+  border: 1px solid black;
+  width: 1440px;
+  height: 72px;
+  background-color: var(--white_color);
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+span.price:after {
   content: " ₽";
 }
 
-.price button {
+button.click_to_order {
   width: 256px;
   height: 40px;
-  border: 1px solid #70C05B;
+  border: 1px solid var(--green_color);
+  border-radius: 4px;
+  color: var(--green_color);
+  font-weight: 400;
+  font-size: 16px;
+}
+button.click_to_order:hover {
+  border: 1px solid var(--green_color);
+  background-color: var(--green_color);
+  color: var(--white_color);
+  font-weight: bold;
+}
+button.click_to_order:active {
+  border: none;
+  background-color: var(--orange_color);
+  color: var(--white_color);
+}
+
+button.added_to_basket {
+  width: 256px;
+  height: 40px;
+  background-color: var(--orange_color);
+  color: var(--white_color);
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+}
+button.added_to_basket:hover {
+  border: 1px solid var(--grey_color);
+  background-color: var(--grey_color);
+  color: var(--white_color);
+  font-weight: bold;
+}
+button.added_to_basket:active {
+  width: 256px;
+  height: 40px;
+  border: 1px solid var(--green_color);
+  border-radius: 4px;
+  color: var(--green_color);
+  font-weight: 400;
+  background: none;
+}
+
+.special_offers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_banner div {
+  box-sizing: border-box;
+  width: 584px;
+  height: 200px;
+  background: #FCD5BA;
   border-radius: 4px;
 }/*# sourceMappingURL=style.css.map */
