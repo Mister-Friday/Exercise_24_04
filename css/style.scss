@@ -3,7 +3,8 @@
 :root {
     --green_color: #70c05b;
     --orange_color: #ff6633;
-    --grey_color: #5a5a5a;
+    --light_grey_color: #bfbfbf;
+    --grey_color: #414141;
     --white_color: #fff;
     --background_color: #fbf8ec;
 }
@@ -34,64 +35,5 @@ body {
 
     .btn_hover_grey:hover {
         filter: contrast(200%);
-    }
-}
-
-
-span.price {
-    &:after {
-        content: ' \20BD';
-    }
-}
-
-button.click_to_order {
-    width: 256px;
-    height: 40px;
-    border: 1px solid var(--green_color);
-    border-radius: 4px;
-    color: var(--green_color);
-    font-weight: 400;
-    font-size: 16px;
-
-    &:hover {
-        border: 1px solid var(--green_color);
-        background-color: var(--green_color);
-        color: var(--white_color);
-        font-weight: bold;
-    }
-
-    &:active {
-        border: none;
-        background-color: var(--orange_color);
-        color: var(--white_color);
-
-    }
-}
-
-button.added_to_basket {
-    width: 256px;
-    height: 40px;
-    background-color: var(--orange_color);
-    color: var(--white_color);
-    border-radius: 4px;
-    font-weight: 400;
-    font-size: 16px;
-
-    &:hover {
-        border: 1px solid var(--grey_color);
-        background-color: var(--grey_color);
-        color: var(--white_color);
-        font-weight: bold;
-    }
-
-    &:active {
-        width: 256px;
-        height: 40px;
-        border: 1px solid var(--green_color);
-        border-radius: 4px;
-        color: var(--green_color);
-        font-weight: 400;
-        background: none;
-
     }
 }

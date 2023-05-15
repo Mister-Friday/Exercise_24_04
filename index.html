@@ -9,7 +9,8 @@
     <link rel="shortcut icon" href="./images/header/favicon.png" type="image/png">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/headerStyle.css">
-    <link rel="stylesheet" href="./css/itemsStyle.css">
+    <link rel="stylesheet" href="./css/salesStyle.css">
+    <!-- <link rel="stylesheet" href="./css/itemsStyle.css"> -->
 </head>
 
 <body>
@@ -20,7 +21,7 @@
             </button>
             <button class="nav_catalog" type="menu">
                 <img src="./images/header/menu_white.png">
-                Каталог
+                <span>Каталог</span>
                 <!-- <ul class="sub_catalog">
                         <li><a href="#">Хорошие товары</a></li>
                         <li><a href="#">Товары похуже</a></li>
@@ -57,161 +58,160 @@
                 </div>
             </div>
         </nav>
-        <a href="#" class="top_slider">
-            <img src="./images/topSlider/meal.png">
-            <h2>Доставка бесплатно от 1000 ₽</h2>
-        </a>
     </header>
     <main>
-        <div class="items">
-            <section class="stocks">
-                <div class="items_title">
-                    <h3>Акции</h3>
-                    <span>
-                        Все акции
-                    </span>
-                    <button>
-                        <img src="./images/shape.png">
-                    </button>
+        <section>
+            <a href="#" class="top_slider">
+                <img src="./images/topSlider/meal.png">
+                <strong>Доставка бесплатно от 1000 ₽</strong>
+            </a>
+        </section>
+
+        <section class="sales">
+            <div class="sales_title">
+                <h3>Акции</h3>
+                <button>
+                    <span>Все акции</span>
+                    <img src="./images/shape.png">
+                </button>
+            </div>
+            <article>
+                <div class="catalog_item">
+                    <div class="product_card_container">
+                        <button>
+                            <img src="./images/heart_btn.png">
+                        </button>
+                        <img src="./images/image1.png" loading="lazy" alt="Изображение товара 1">
+                        <p>-50%</p>
+                    </div>
+                    <div class="catalog_item_prices">
+                        <div class="basic_price">
+                            <p class="price">44,50</p>
+                            <span>С картой</span>
+                        </div>
+                        <div>
+                            <p class="price">50,50</p>
+                            <span>Обычная</span>
+                        </div>
+                    </div>
+                    <p class="catalog_item_name">
+                        Г/Ц Блинчики с мясом вес, <br>Россия
+                    </p>
+                    <div class="rating">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                        <img src="./images/star_grey.png" alt="звезда рейтинга">
+                        <img src="./images/star_grey.png" alt="звезда рейтинга">
+                        <img src="./images/star_grey.png" alt="звезда рейтинга">
+                    </div>
+
+                    <div class="btn_container">
+                        <button class="click_to_order">В корзину</button>
+                    </div>
                 </div>
-
-                <div class="catalog_grid">
-
-                    <a class="product_card_link" href="#">
-                        <div class="product_card_container">
-                            <img src="./images/image1.png" loading="lazy" alt="Изображение товара 1">
-                            <span class="favorite_icon" role="button">
-                                <img src="./images/heart_btn.png">
-                            </span>
-                            <div class="discount_icon">
-                                <span class="notice">-50%</span>
-                            </div>
-                            <div class="price">
-                                <div>
-                                    <span class="price">44,50</span>
-                                    <span>С картой</span>
-                                </div>
-                                <div>
-                                    <span class="price">50,50</span>
-                                    <span>Обычная</span>
-                                </div>
-                                <h5>Г/Ц Блинчики с мясом вес, Россия</h5>
-                                <div class="rating">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                    <img src="./images/star_grey.png" alt="звезда рейтинга">
-                                    <img src="./images/star_grey.png" alt="звезда рейтинга">
-                                    <img src="./images/star_grey.png" alt="звезда рейтинга">
-                                </div>
-                                <div class="btn_container">
-                                    <button class="click_to_order">В корзину</button>
-                                </div>
-                            </div>
+                <div class="catalog_item">
+                    <div class="product_card_container">
+                        <button>
+                            <img src="./images/heart_btn.png">
+                        </button>
+                        <img src="./images/image2.png" loading="lazy" alt="Изображение товара 2">
+                        <p>-50%</p>
+                    </div>
+                    <div class="catalog_item_prices">
+                        <div class="basic_price">
+                            <p class="price">44,50</p>
+                            <span>С картой</span>
                         </div>
-                    </a>
-
-                    <a class="product_card_link" href="#">
-                        <div class="product_card_container">
-                            <img src="./images/image2.png" loading="lazy" alt="Изображение товара 2">
-                            <span class="favorite_icon" role="button">
-                                <img src="./images/heart_btn.png">
-                            </span>
-                            <div class="discount_icon">
-                                <span class="notice">-50%</span>
-                            </div>
-                            <div class="price">
-                                <div>
-                                    <span class="price">44,50</span>
-                                    <span>С картой</span>
-                                </div>
-                                <div>
-                                    <span class="price">50,50</span>
-                                    <span>Обычная</span>
-                                </div>
-                                <h5>Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное...</h5>
-                                <div class="rating">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                    <img src="./images/star_grey.png" alt="звезда рейтинга">
-                                    <img src="./images/star_grey.png" alt="звезда рейтинга">
-                                </div>
-                                <div class="btn_container">
-                                    <button class="click_to_order">В корзину</button>
-                                </div>
-                            </div>
+                        <div>
+                            <p class="price">50,50</p>
+                            <span>Обычная</span>
                         </div>
-                    </a>
+                    </div>
+                    <p class="catalog_item_name">
+                        Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное...
+                    </p>
+                    <div class="rating">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                        <img src="./images/star_grey.png" alt="звезда рейтинга">
+                        <img src="./images/star_grey.png" alt="звезда рейтинга">
+                    </div>
 
-                    <a class="product_card_link" href="#">
-                        <div class="product_card_container">
-                            <img src="./images/image3.png" loading="lazy" alt="Изображение товара 3">
-                            <span class="favorite_icon" role="button">
-                                <img src="./images/heart_btn.png">
-                            </span>
-                            <div class="discount_icon">
-                                <span class="notice">-50%</span>
-                            </div>
-                            <div class="price">
-                                <div>
-                                    <span class="price">44,50</span>
-                                    <span>С картой</span>
-                                </div>
-                                <div>
-                                    <span class="price">50,50</span>
-                                    <span>Обычная</span>
-                                </div>
-                                <h5>Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</h5>
-                                <div class="rating">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                </div>
-                                <div class="btn_container">
-                                    <button class="added_to_basket">В корзине</button>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a class="product_card_link" href="#">
-                        <div class="product_card_container">
-                            <img src="./images/image4.png" loading="lazy" alt="Изображение товара 3">
-                            <span class="favorite_icon" role="button">
-                                <img src="./images/heart_btn.png">
-                            </span>
-                            <div class="discount_icon">
-                                <span class="notice">-50%</span>
-                            </div>
-                            <div class="price">
-                                <div>
-                                    <span class="price">44,50</span>
-                                    <span>С картой</span>
-                                </div>
-                                <div>
-                                    <span class="price">50,50</span>
-                                    <span>Обычная</span>
-                                </div>
-                                <h5>Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро...</h5>
-                                <div class="rating">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                    <img src="./images/star_orange.png" alt="звезда рейтинга">
-                                    <img src="./images/star_orange-grey.png" alt="звезда рейтинга">
-                                </div>
-                                <div class="btn_container">
-                                    <button class="click_to_order">В корзину</button>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-
+                    <div class="btn_container">
+                        <button class="click_to_order">В корзину</button>
+                    </div>
                 </div>
+                <div class="catalog_item">
+                    <div class="product_card_container">
+                        <button>
+                            <img src="./images/heart_btn.png">
+                        </button>
+                        <img src="./images/image3.png" loading="lazy" alt="Изображение товара 3">
+                        <p>-50%</p>
+                    </div>
+                    <div class="catalog_item_prices">
+                        <div class="basic_price">
+                            <p class="price">44,50</p>
+                            <span>С картой</span>
+                        </div>
+                        <div>
+                            <p class="price">50,50</p>
+                            <span>Обычная</span>
+                        </div>
+                    </div>
+                    <p class="catalog_item_name">
+                        Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...
+                    </p>
+                    <div class="rating">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                    </div>
 
-            </section>
+                    <div class="btn_container">
+                        <button class="added_to_basket">В корзине</button>
+                    </div>
+                </div>
+                <div class="catalog_item">
+                    <div class="product_card_container">
+                        <button>
+                            <img src="./images/heart_btn.png">
+                        </button>
+                        <img src="./images/image4.png" loading="lazy" alt="Изображение товара 4">
+                        <p>-50%</p>
+                    </div>
+                    <div class="catalog_item_prices">
+                        <div class="basic_price">
+                            <p class="price">44,50</p>
+                            <span>С картой</span>
+                        </div>
+                        <div>
+                            <p class="price">50,50</p>
+                            <span>Обычная</span>
+                        </div>
+                    </div>
+                    <p class="catalog_item_name">
+                        Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро...
+                    </p>
+                    <div class="rating">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                        <img src="./images/star_orange.png" alt="звезда рейтинга">
+                        <img src="./images/star_orange-grey.png" alt="звезда рейтинга">
+                    </div>
+
+                    <div class="btn_container">
+                        <button class="click_to_order">В корзину</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- <div class="items">
+            
             <section class="new_products">
 
                 <h3>Новинки</h3>
@@ -431,8 +431,8 @@
                 </div>
 
             </section>
-        </div>
-        <section class="special_offers">
+        </div> -->
+        <!-- <section class="special_offers">
             <div>
                 <h3>Специальные предложения</h3>
 
@@ -478,7 +478,7 @@
                 <h3>Статьи</h3>
                 <button>Все статьи<img src="./images/shape.png"></button>
             </div>
-        </section>
+        </section> -->
     </main>
     <footer>
         <img src="./images/logo_footer.png" alt="лого в футере сайта">
