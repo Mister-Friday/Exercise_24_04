@@ -13,14 +13,14 @@ section.special_offers > div {
   justify-content: space-between;
   align-items: center;
 }
-section.special_offers p {
+section.special_offers span {
   color: var(--grey_color);
+  width: 258px;
   height: 48px;
   grid-column: 1;
   grid-row: 2;
   margin-left: 40px;
   margin-bottom: 44px;
-  border: 1px solid black;
 }
 section.special_offers p.banner_title {
   height: 72px;
@@ -28,11 +28,12 @@ section.special_offers p.banner_title {
   font-weight: 700;
   grid-column: 1;
   grid-row: 1;
+  margin-left: 40px;
   margin-top: 30px;
 }
 section.special_offers .left_banner {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto;
   background-color: #FCD5BA;
   width: 584px;
   height: 200px;
@@ -41,15 +42,19 @@ section.special_offers .left_banner {
 section.special_offers .left_banner img {
   grid-column: 2;
   grid-row: 1/3;
+  margin-right: 40px;
 }
 section.special_offers .right_banner {
+  display: grid;
+  grid-template-columns: auto;
   background-image: url("../images/right_banner_background.png");
   width: 584px;
   height: 200px;
   border-radius: 4px;
-  gap: 10px;
-  border: 1px solid black;
 }
 section.special_offers .right_banner img {
-  position: absolute;
+  grid-column: 2;
+  grid-row: 1/3;
+  margin-top: 14px;
+  margin-right: 42px;
 }/*# sourceMappingURL=specialOffersStyle.css.map */
