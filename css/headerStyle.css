@@ -133,7 +133,6 @@ nav .account a:hover {
 
 .top_slider {
   position: relative;
-  top: 76px;
   display: flex;
   align-items: center;
   background-image: url("../images/topSlider/sliders.png");

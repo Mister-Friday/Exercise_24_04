@@ -1,10 +1,14 @@
-section.sales {
+section.sales,
+.new_products,
+.bought_earlier {
     width: 1208px;
     min-height: 600px;
     // background-color: grey;
     margin: 0 auto;
 
-    .sales_title {
+    .sales_title,
+    .new_products_title,
+    .bought_earlier_title {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -49,16 +53,22 @@ section.sales {
 
             >button {
                 width: 32px;
-                height: 30px;
+                height: 32px;
                 position: absolute;
+                padding: 4px;
                 margin-top: 8px;
                 margin-left: 232px;
-                background-color: var(--light_grey_color);
+                background-color: #f3f2f1;
                 opacity: 50%;
                 border-radius: 4px;
 
                 &:hover {
-                    opacity: 90%;
+                    opacity: 20%;
+                }
+
+                &:active {
+                    background-color: var(--light_grey_color);
+                    opacity: 70%;
                 }
             }
 
@@ -83,10 +93,11 @@ section.sales {
             display: flex;
             justify-content: space-between;
             padding: 8px;
-        
-            .basic_price > p {
+
+            .basic_price>p {
                 font-weight: bold;
             }
+
             span {
                 font-size: 12px;
                 color: var(--light_grey_color);
