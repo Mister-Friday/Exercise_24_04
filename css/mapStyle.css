@@ -1,0 +1,25 @@
+section.our_shops {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1208px;
+}
+section.our_shops h3 {
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 40px;
+}
+section.our_shops .our_shops_btns > button {
+  width: 97px;
+  height: 32px;
+  background-color: #f3f2f1;
+  border-radius: 4px;
+  color: var(--grey_color);
+  font-size: 12px;
+  padding: 4px 8px;
+  margin: 8px;
+}
+section.our_shops .our_shops_btns > button:nth-child(1) {
+  background-color: var(--green_color);
+  color: var(--white_color);
+}/*# sourceMappingURL=mapStyle.css.map */
