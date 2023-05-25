@@ -2,8 +2,9 @@
 
 :root {
     --green_color: #70c05b;
+    --light_green_color: #e5ffde;
     --orange_color: #ff6633;
-    --light_grey_color: #bfbfbf;
+    --light_grey_color: #8f8f8f;
     --grey_color: #414141;
     --white_color: #fff;
     --background_color: #fbf8ec;
@@ -13,7 +14,7 @@
     text-decoration: none;
     // max-width: 1440px;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;

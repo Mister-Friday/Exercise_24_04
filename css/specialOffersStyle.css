@@ -1,12 +1,13 @@
 section.special_offers {
   width: 1208px;
-  background-color: grey;
   margin: 0 auto;
 }
 section.special_offers h3 {
   font-size: 36px;
   line-height: 54px;
   margin-bottom: 40px;
+  color: var(--grey_color);
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
 }
 section.special_offers > div {
   display: flex;
@@ -38,6 +39,7 @@ section.special_offers .left_banner {
   width: 584px;
   height: 200px;
   border-radius: 4px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
 }
 section.special_offers .left_banner img {
   grid-column: 2;
@@ -51,6 +53,7 @@ section.special_offers .right_banner {
   width: 584px;
   height: 200px;
   border-radius: 4px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
 }
 section.special_offers .right_banner img {
   grid-column: 2;

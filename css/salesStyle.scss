@@ -13,10 +13,13 @@ section.sales,
         justify-content: space-between;
         align-items: center;
         line-height: 24px;
-        margin-top: 102px;
+        // margin-top: 80px;
         margin-bottom: 48px;
-
+        text-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+        
         h3 {
+            margin-top: 120px;
+            margin: 0;
             font-size: 36px;
             color: var(--grey_color);
         }
@@ -24,10 +27,20 @@ section.sales,
         button {
             display: flex;
             align-items: center;
+            margin: 0;
+            text-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+
+            &:hover {
+                color: var(--light_grey_color);
+            }
+
+            &:active {
+                color: var(--grey_color);
+            }
         }
 
         img {
-            margin: 0 16.5px;
+            margin-left: 16.5px;
         }
     }
 
@@ -44,6 +57,7 @@ section.sales,
         min-height: 200px;
         background-color: var(--white_color);
         border-radius: 4px;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
 
         .product_card_container {
             width: 100%;

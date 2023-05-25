@@ -137,6 +137,7 @@ nav .account a:hover {
   align-items: center;
   background-image: url("../images/topSlider/sliders.png");
   width: 1440px;
+  margin-bottom: 80px;
   z-index: 1;
 }
 .top_slider:hover {

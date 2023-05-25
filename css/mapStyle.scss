@@ -4,14 +4,19 @@ section.our_shops {
     flex-direction: column;
     justify-content: center;
     width: 1208px;
+    margin: 0 auto;
 
     h3 {
         font-size: 36px;
         line-height: 54px;
+        margin-top: 120px;
         margin-bottom: 40px;
+        color: var(--grey_color);
+        text-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+
     }
 
-    .our_shops_btns>button {
+    .our_shops_btns button {
         width: 97px;
         height: 32px;
         background-color: #f3f2f1;
@@ -20,10 +25,20 @@ section.our_shops {
         font-size: 12px;
         padding: 4px 8px;
         margin: 8px;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+
+        &:hover {
+            background-color: var(--light_grey_color);
+            color: var(--white_color);
+        }
+        &:focus {
+            background-color: var(--green_color);
+            color: var(--white_color);
+        }
     }
 
-    .our_shops_btns>button:nth-child(1) {
-        background-color: var(--green_color);
-        color: var(--white_color);
+    .map {
+        margin-top: 24px;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
     }
 }

@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./css/salesStyle.css">
     <link rel="stylesheet" href="./css/specialOffersStyle.css">
     <link rel="stylesheet" href="./css/mapStyle.css">
+    <link rel="stylesheet" href="./css/articlesStyle.css">
+    <link rel="stylesheet" href="./css/footerStyle.css">
 </head>
 
 <body>
@@ -503,32 +505,70 @@
             </div>
         </section>
         <section class="articles">
-            <div class="container">
+            <div class="articles_title">
                 <h3>Статьи</h3>
-                <button>Все статьи<img src="./images/shape.png"></button>
+                <button>
+                    <span>Все статьи</span>
+                    <img src="./images/shape.png"></button>
             </div>
+            <article>
+                <div class="article_items">
+                    <div>
+                        <img src="./images/articles/article_1.png" alt="article one">
+                        <span>05.03.2021</span>
+                        <h4>Режим использования масок<br>и перчаток на территории магазинов</h4>
+                        <p>
+                            Подробная информация о режимах использования масок и перчаток на территории магазинов
+                            "ЛЕНТА". Информация обновляется каждый будний день.
+                        </p>
+                        <button>Подробнее</button>
+                    </div>
+                    <div>
+                        <img src="./images/articles/article_2.png" alt="article two">
+                        <span>05.03.2021</span>
+                        <h4>Весеннее настроение для каждой</h4>
+                        <p>
+                            8 Марта – это не просто Международный женский день, это ещё день тюльпанов, приятных
+                            сюрпризов и праздничных тёплых пожеланий.
+                        </p>
+                        <button>Подробнее</button>
+                    </div>
+                    <div>
+                        <img src="./images/articles/article_3.png" alt="article three">
+                        <span>22.02.2020</span>
+                        <h4>ЗОЖ или ФАСТФУД. А вы на чьей<br> стороне? Голосуем!</h4>
+                        <p>
+                            Голосуйте за любимые категории, выбирайте категорию-победителя в мобильном приложении и
+                            получайте кешбэк 10% баллами в апреле!
+                        </p>
+                        <button>Подробнее</button>
+                    </div>
+
+                </div>
+            </article>
         </section>
     </main>
     <footer>
-        <img src="./images/logo_footer.png" alt="лого в футере сайта">
-        <ul>
-            <li>О компании</li>
-            <li>Контакты</li>
-            <li>Вакансии</li>
-            <li>Статьи</li>
-            <li>Политика обработки персональных данных</li>
-        </ul>
-        <ul class="social_icon">
-            <li><img src="./images/icon_instagram.png" alt="инстаграм"></li>
-            <li><img src="./images/icon_vk.png" alt="в контакте"></li>
-            <li><img src="./images/icon_facebook.png" alt="фэйсбук"></li>
-            <li><img src="./images/icon_ok.png" alt="одноклассники"></li>
-        </ul>
-
-        <button>
-            <img src="./images/phone.png" alt="телефон">
-            <a href="tel:+880077733333">8 800 777 333 33</a>
-        </button>
+        <div>
+            <img src="./images/logo_footer.png" alt="лого в футере сайта">
+            <div class="footer_menu">
+                <a href="#" target="_self">О компании</a>
+                <a href="#" target="_self">Контакты</a>
+                <a href="#" target="_self">Вакансии</a>
+                <a href="#" target="_self">Статьи</a>
+                <a href="./404.html" target="_blank">Политика обработки персональных данных</a>
+            </div>
+            <div class="footer_social_icon">
+                <a href="#"><img src="./images/icon_instagram.png" alt="инстаграм"></a>
+                <a href="#"><img src="./images/icon_vk.png" alt="в контакте"></a>
+                <a href="#"><img src="./images/icon_facebook.png" alt="фэйсбук"></a>
+                <a href="#"><img src="./images/icon_ok.png" alt="одноклассники"></a>
+            </div>
+            <button>
+                <img src="./images/phone.png" alt="телефон">
+                <a href="tel:+880077733333">8 800 777 333 33</a>
+            </button>
+        </div>
 
     </footer>
     <script src="./js/script.js"></script>

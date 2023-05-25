@@ -1,0 +1,54 @@
+footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  height: 126px;
+  margin-top: 80px;
+  background-image: url(../images/bg.png);
+}
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+footer > div > img {
+  margin-left: 115px;
+}
+footer > div .footer_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 637px;
+}
+footer > div .footer_menu > a {
+  text-decoration: none;
+  color: var(--grey_color);
+  font-size: 12px;
+}
+footer > div div.footer_social_icon {
+  display: flex;
+  justify-content: space-between;
+  width: 144px;
+  height: 24px;
+  margin: auto;
+}
+footer > div div.footer_social_icon > a {
+  width: 24px;
+  height: 24px;
+}
+footer > div > button {
+  width: 152px;
+  height: 24px;
+  border: 1px solid black;
+  margin-left: 40px;
+}
+footer > div > button img {
+  width: 24px;
+  height: 24px;
+}
+footer > div > button a {
+  font-size: 16px;
+  color: var(--grey_color);
+}/*# sourceMappingURL=footerStyle.css.map */

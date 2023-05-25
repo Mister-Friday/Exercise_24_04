@@ -1,0 +1,83 @@
+section.articles {
+  width: 1208px;
+  margin: 0 auto;
+}
+section.articles .articles_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 24px;
+  margin-top: 102px;
+  margin-bottom: 48px;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+section.articles .articles_title h3 {
+  margin-top: 120px;
+  margin: 0;
+  font-size: 36px;
+  color: var(--grey_color);
+}
+section.articles .articles_title button {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+section.articles .articles_title button:hover {
+  color: var(--light_grey_color);
+}
+section.articles .articles_title button:active {
+  color: var(--grey_color);
+}
+section.articles .articles_title img {
+  margin-left: 16.5px;
+}
+section.articles .article_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+section.articles .article_items > div {
+  width: 376px;
+  height: 420px;
+  background-color: var(--white_color);
+  border-radius: 4px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+section.articles .article_items span {
+  margin-left: 10px;
+  font-size: 12px;
+  color: var(--light_grey_color);
+  line-height: 18px;
+}
+section.articles .article_items h4 {
+  font-size: 18px;
+  color: var(--grey_color);
+  line-height: 27px;
+  margin: 0 10px;
+}
+section.articles .article_items p {
+  font-size: 16px;
+  color: var(--grey_color);
+  line-height: 24px;
+  margin: 10px;
+}
+section.articles .article_items button {
+  width: 150px;
+  height: 40px;
+  background-color: var(--light_green_color);
+  border-radius: 4px;
+  font-size: 16px;
+  color: var(--green_color);
+  margin-left: 10px;
+  margin-bottom: 18px;
+}
+section.articles .article_items button:hover {
+  background-color: var(--light_grey_color);
+  color: var(--white_color);
+}
+section.articles .article_items button:focus {
+  background-color: var(--green_color);
+  color: var(--white_color);
+}/*# sourceMappingURL=articlesStyle.css.map */

@@ -19,8 +19,8 @@ section.sales .bought_earlier_title,
   justify-content: space-between;
   align-items: center;
   line-height: 24px;
-  margin-top: 102px;
   margin-bottom: 48px;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
 }
 section.sales .sales_title h3,
 section.sales .new_products_title h3,
@@ -31,6 +31,8 @@ section.sales .bought_earlier_title h3,
 .bought_earlier .sales_title h3,
 .bought_earlier .new_products_title h3,
 .bought_earlier .bought_earlier_title h3 {
+  margin-top: 120px;
+  margin: 0;
   font-size: 36px;
   color: var(--grey_color);
 }
@@ -45,6 +47,30 @@ section.sales .bought_earlier_title button,
 .bought_earlier .bought_earlier_title button {
   display: flex;
   align-items: center;
+  margin: 0;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+section.sales .sales_title button:hover,
+section.sales .new_products_title button:hover,
+section.sales .bought_earlier_title button:hover,
+.new_products .sales_title button:hover,
+.new_products .new_products_title button:hover,
+.new_products .bought_earlier_title button:hover,
+.bought_earlier .sales_title button:hover,
+.bought_earlier .new_products_title button:hover,
+.bought_earlier .bought_earlier_title button:hover {
+  color: var(--light_grey_color);
+}
+section.sales .sales_title button:active,
+section.sales .new_products_title button:active,
+section.sales .bought_earlier_title button:active,
+.new_products .sales_title button:active,
+.new_products .new_products_title button:active,
+.new_products .bought_earlier_title button:active,
+.bought_earlier .sales_title button:active,
+.bought_earlier .new_products_title button:active,
+.bought_earlier .bought_earlier_title button:active {
+  color: var(--grey_color);
 }
 section.sales .sales_title img,
 section.sales .new_products_title img,
@@ -55,7 +81,7 @@ section.sales .bought_earlier_title img,
 .bought_earlier .sales_title img,
 .bought_earlier .new_products_title img,
 .bought_earlier .bought_earlier_title img {
-  margin: 0 16.5px;
+  margin-left: 16.5px;
 }
 section.sales article,
 .new_products article,
@@ -73,6 +99,7 @@ section.sales .catalog_item,
   min-height: 200px;
   background-color: var(--white_color);
   border-radius: 4px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
 }
 section.sales .catalog_item .product_card_container,
 .new_products .catalog_item .product_card_container,
